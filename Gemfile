@@ -38,6 +38,6 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 group :development,:test do
-  gem 'rspec','2.4.0'
-  gem 'rspec-rails', '2.4.1'
+  gem 'rspec'
+  gem 'rspec-rails'
 end
