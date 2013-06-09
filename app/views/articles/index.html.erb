@@ -1,6 +1,7 @@
 <h1>Articles#index</h1>
 
 <% @articles.each do |article| %>
+  <div><%= posted_on(article) %></div>
   <h2><%= article.title %></h2>
   <div><%= article.body %></div>
 <% end %>
